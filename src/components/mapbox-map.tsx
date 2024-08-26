@@ -202,7 +202,6 @@ function MapboxMap() {
   return (
     <div className="relative">
       <div ref={mapNode} style={{ width: "100vw", height: "100vh" }} />
-      <div className="absolute w-1/3 h-32 p-4 bg-white rounded-lg bottom-4 left-44 z-10 shadow-lg"></div>
     </div>
   );
 }
